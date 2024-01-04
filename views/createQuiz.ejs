@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%=title%></title>
+</head>
+<body>
+  <div class="quiz-container">
+    <div id="question-container">
+      <h4 id="question">Question</h4>
+      <div id="answer-buttons">
+        <form action="/make-quiz" method="post">
+          <div class="input-group">
+            <input type="radio" name="answer" id="" value="index">
+            <label for=""></label>
+          </div>
+        </form>
+      </div>
+    </div>
+  <button id="next-btn" class="btn hide">Next</button>
+  <div id="result" class="hide"></div>
+  <button id="restart-btn" class="btn hide">Restart</button>
+  </div>
+
+  <a href="/" id="home-btn">Back to Home</a> 
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+  /* background-color: purple !important; */
+  background-image: linear-gradient(to bottom right, purple, pink);
+}
+
+
+h2{
+  color: violet;
+  text-align: center;
+}
+
+main p{
+  color: green;
+  text-align: justify;
+}
+
+
+main{
+  background-color: rgba(255, 255, 255, 0.726);
+  color: black;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 30px ;
+  margin-bottom: 10px;
+}
+

@@ -10,7 +10,7 @@ const quizSchema = new mongoose.Schema({
       required: true,
       type: Array
   }
-});
+}, {timestamps: true});
 
 const QuizModel = mongoose.model("quiz", quizSchema);
 module.exports = {QuizModel};

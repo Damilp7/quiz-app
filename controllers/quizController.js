@@ -71,7 +71,7 @@ const postQuiz = async (req, res) => {
   try {
     await newQuiz.save();
     console.log("new document has been saved!");
-    res.status(201).render("decision", { success: true, message: "Document saved successfully"}).redirect('/');
+    res.status(201).render("decision", { success: true, message: "Document saved successfully"}).redirect("/");
   } catch (error) {
     console.log(error);
     res.status(500).render("decision", {success: false, message: "Error saving file!"});
